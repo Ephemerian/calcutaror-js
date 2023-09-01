@@ -83,12 +83,13 @@ body {
 }
 
 /* Mobile (max-width: 480px) */
-@media (max-width: 480px) {
+@media (max-width: 480px) and (orientation: landscape){
     .calculator {
         width: 80%;
         max-width: none;
         height: auto;
         margin: 10px auto;
+        overflow: scroll;
     }
 
     .display {
