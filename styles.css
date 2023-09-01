@@ -61,7 +61,7 @@ body {
 
 .zero-btn {
     padding: 28px 30px;
-    flex-grow: 1;
+    flex-grow: 0.95 ;
 }
 
 .btn-orange {
@@ -83,13 +83,12 @@ body {
 }
 
 /* Mobile (max-width: 480px) */
-@media (max-width: 480px) and (orientation: landscape){
+@media (max-width: 480px){
     .calculator {
         width: 80%;
         max-width: none;
         height: auto;
         margin: 10px auto;
-        overflow: scroll;
     }
 
     .display {
